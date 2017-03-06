@@ -10,4 +10,4 @@ program testsum
 
   call sum_abs(data,n,asum)
   print*, 'sum=',asum
-end program testsum 
+end program testsum

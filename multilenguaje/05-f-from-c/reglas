@@ -1,0 +1,6 @@
+#Makefile
+# Primero compilo las distintas unidades por separado para crear los objetos
+gcc -c c-main.c	-o c-main.o
+gfortran -c f-sum.f90 -o f-sum.o
+# Ahora linkeo todo
+gcc c-main.o f-sum.o -o suma.e
